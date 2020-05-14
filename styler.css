@@ -16,9 +16,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 90px 0 150px 0;
-    background: url("images/apple-web.jpg") -50px -775px no-repeat;
+    background: url("images/apple-web-2.png") 0 0 no-repeat;
+    background-size: cover;
     background-clip: border-box;
     background-origin: border-box;
+    margin-bottom: 0;
 }
 
 .container {
@@ -78,4 +80,29 @@ body {
 
 .watch-par > img{
     margin-left: 10px;
+}
+
+.lower-sec-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px;
+    grid-gap: 2px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
+
+.phone1 {
+    background: url("images/Iphone-1.jpg") 0 0 no-repeat;
+}
+
+.phone2 {
+    background: url("images/Iphone-2.jpg") 0 0 no-repeat;
+}
+
+.phone3 {
+    background: url("images/Iphone-3.jpg") 0 0 no-repeat;
+}
+
+.phone4 {
+    background: url("images/supplier.jpg") 0 0 no-repeat;
 }
