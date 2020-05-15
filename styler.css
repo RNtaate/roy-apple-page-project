@@ -33,6 +33,7 @@ body {
 .container > nav {
     width: 100%;
     display: flex;
+    height: 35px;
     align-items: center;
     margin-bottom: 40px;
     border-radius: 4px;
@@ -42,14 +43,21 @@ body {
     padding: 0;
 }
 
-.help-link-nav > a{
+.help-link-nav > a {
     flex: 1;
+    display: flex;
+    align-items: center;
     padding: 5px 40px;
     font-size: 1vw;
     color: white;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     border-right: 1px solid gray;
+    height: 100%;
+}
+
+.help-link-nav > a:not(:first-child) {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .help-link-nav > a:hover{
@@ -61,7 +69,8 @@ body {
 }
 
 .help-link-nav > div{
-    padding: 7px 12px;
+    padding: 5px 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .help-link-nav > div > input {
