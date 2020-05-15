@@ -1,203 +1,211 @@
-*, *::before, *::after{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+    sans-serif;
 }
 
-.upper-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 90px 0 150px 0;
-    background: url("images/apple-web-2.png") 0 0 no-repeat;
-    background-size: 100% 100%;
-    background-clip: border-box;
-    background-origin: border-box;
-    margin-bottom: 0;
+.upper-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0 150px 0;
+  background: url("images/apple-web-2.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+  background-clip: border-box;
+  background-origin: border-box;
+  margin-bottom: 0;
 }
 
 .container {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .container > nav {
-    width: 100%;
-    display: flex;
-    height: 35px;
-    align-items: center;
-    margin-bottom: 40px;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
-    background: linear-gradient(180deg, rgb(116, 116, 116) 47%, rgb(87, 87, 87) 48%, rgba(137, 137, 137, 1) 120%);
-    font-weight: 600;
-    padding: 0;
+  width: 100%;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+  background: linear-gradient(
+    180deg,
+    rgb(116, 116, 116) 47%,
+    rgb(87, 87, 87) 48%,
+    rgba(137, 137, 137, 1) 120%
+  );
+  font-weight: 600;
+  padding: 0;
 }
 
 .help-link-nav > a {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    padding: 5px 40px;
-    font-size: 1vw;
-    color: white;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    border-right: 1px solid gray;
-    height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 5px 40px;
+  font-size: 1vw;
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  border-right: 1px solid gray;
+  height: 100%;
 }
 
 .help-link-nav > a:not(:first-child) {
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.help-link-nav > a:hover{
-    background-color: rgba(5, 5, 5, 0.4);
+.help-link-nav > a:hover {
+  background-color: rgba(5, 5, 5, 0.4);
 }
 
 .help-link-nav > a:nth-child(1) {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.help-link-nav > div{
-    padding: 5px 10px;
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
+.help-link-nav > div {
+  padding: 5px 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .help-link-nav > div > input {
-    width: 80%;
-    background-image: url("images/superior-search.png");
-    background-size: 15px;
-    background-repeat: no-repeat;
-    background-position: 2px 50%;
-    padding: 2px 3px 2px 20px;
-    background-color: transparent;
-    border: 0.5px solid rgb(100, 100, 100);
-    border-radius: 30px;
-    box-shadow: inset 0 2px 1px #333;
-    color: white;
+  width: 80%;
+  background-image: url("images/superior-search.png");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 2px 50%;
+  padding: 2px 3px 2px 20px;
+  background-color: transparent;
+  border: 0.5px solid rgb(100, 100, 100);
+  border-radius: 30px;
+  box-shadow: inset 0 2px 1px #333;
+  color: white;
 }
 
-.verse-div > a > img{
-    width: 100%;
+.verse-div > a > img {
+  width: 100%;
 }
 
 .every-div {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .every-div > a > img {
-    width: 100%;
+  width: 100%;
 }
 
 .play-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.play-link:hover{
-    text-decoration: underline;
-    color: white;
+.play-link:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 .watch-par {
-    font-size: 1.9vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  font-size: 1.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
-.watch-par > img{
-    margin-left: 10px;
+.watch-par > img {
+  margin-left: 10px;
 }
 
 .lower-sec-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 13.6vw;
-    grid-gap: 2px;
-    margin-bottom: 20px;
-    margin-top: 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 13.6vw;
+  grid-gap: 2px;
+  margin-bottom: 20px;
+  margin-top: 2px;
 }
 
 .lower-sec-div > div {
-    background-size: 100% auto;
+  background-size: 100% auto;
 }
 
 .phone1 {
-    background: url("images/Iphone-1.jpg") 0 0 no-repeat;
+  background: url("images/Iphone-1.jpg") 0 0 no-repeat;
 }
 
 .phone2 {
-    background: url("images/Iphone-2.jpg") 0 0 no-repeat;
+  background: url("images/Iphone-2.jpg") 0 0 no-repeat;
 }
 
 .phone3 {
-    background: url("images/Iphone-3.jpg") 0 0 no-repeat;
+  background: url("images/Iphone-3.jpg") 0 0 no-repeat;
 }
 
 .phone4 {
-    background: url("images/supplier.jpg") 0 0 no-repeat;
+  background: url("images/supplier.jpg") 0 0 no-repeat;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    font-size: 10px;
-    color: rgb(120, 120, 120);
-    padding: 5px 50px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  color: rgb(120, 120, 120);
+  padding: 5px 50px;
+  margin-bottom: 20px;
 }
 
 footer > div {
-    flex-basis: 42%;
+  flex-basis: 42%;
 }
 
-footer > div >  p > a {
-    color: rgb(0, 136, 204);
-    text-decoration: none;
+footer > div > p > a {
+  color: rgb(0, 136, 204);
+  text-decoration: none;
 }
 
 footer > div > p > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.left-footer-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.left-footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .left-footer-div > p {
-    display: flex;
-    align-items: center;
-    padding: 7px 0;
+  display: flex;
+  align-items: center;
+  padding: 7px 0;
 }
 
 .left-footer-div > p > a {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
-.right-footer-div{
-    display: flex;
-    flex-direction: column;
+.right-footer-div {
+  display: flex;
+  flex-direction: column;
 }
 
 .right-footer-div > p {
-    display: flex;
-    align-items: center;
-    padding: 5px 0;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
 }
 
 .right-footer-div > p > a {
-    margin: 0 5px;
+  margin: 0 5px;
 }
