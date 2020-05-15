@@ -129,24 +129,24 @@ body {
     margin-top: 2px;
 }
 
+.lower-sec-div > div {
+    background-size: 100% auto;
+}
+
 .phone1 {
     background: url("images/Iphone-1.jpg") 0 0 no-repeat;
-    background-size: 100% auto;
 }
 
 .phone2 {
     background: url("images/Iphone-2.jpg") 0 0 no-repeat;
-    background-size: 100% auto;
 }
 
 .phone3 {
     background: url("images/Iphone-3.jpg") 0 0 no-repeat;
-    background-size: 100% auto;
 }
 
 .phone4 {
     background: url("images/supplier.jpg") 0 0 no-repeat;
-    background-size: 100% auto;
 }
 
 footer {
