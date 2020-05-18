@@ -60,6 +60,7 @@ body {
 footer > div > p > a {
   color: rgb(0, 136, 204);
   text-decoration: none;
+  margin: 0 5px;
 }
 
 .help-link-nav > a {
@@ -75,12 +76,8 @@ footer > div > p > a {
   height: 100%;
 }
 
-.left-footer-div > p > a {
-  margin: 0 5px;
-}
-
-.right-footer-div > p > a {
-  margin: 0 5px;
+.lower-sec-div > a {
+  background-size: 100% auto;
 }
 
 footer > div > p > a:hover {
@@ -100,7 +97,7 @@ footer > div > p > a:hover {
 }
 
 footer > div {
-  flex-basis: 42%;
+  flex-basis: 45%;
 }
 
 .help-link-nav > div {
@@ -126,15 +123,11 @@ footer > div {
   margin-left: 10px;
 }
 
-.verse-div > a > img {
-  width: 100%;
-}
-
 .every-div {
   margin-bottom: 20px;
 }
 
-.every-div > a > img {
+.container > div > a > img {
   width: 100%;
 }
 
@@ -162,10 +155,6 @@ footer > div {
   grid-gap: 2px;
   margin-bottom: 20px;
   margin-top: 2px;
-}
-
-.lower-sec-div > div {
-  background-size: 100% auto;
 }
 
 .phone1 {
