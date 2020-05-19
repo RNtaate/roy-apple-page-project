@@ -12,7 +12,7 @@ This project was made to demonstrate the author's understanding of basic HTML an
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/RNtaate/roy-apple-page-project/8a19340256aafcd3d86857105c1ba019c3ac5536/index.html#)
+[Live Demo Link](https://rawcdn.githack.com/RNtaate/roy-apple-page-project/a9efc12cfbb87b3c7ac9b39be3693978bdd77bb0/index.html)
 
 ## Authors
 
