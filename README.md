@@ -14,6 +14,18 @@ This project was made to demonstrate the author's understanding of basic HTML an
 
 [Live Demo Link](https://rawcdn.githack.com/RNtaate/roy-apple-page-project/a9efc12cfbb87b3c7ac9b39be3693978bdd77bb0/index.html)
 
+
+## Getting Started
+To get a local copy of this repository, please run the following commands on your terminal
+
+```
+$ cd <folder>
+```
+
+```
+$ git clone https://github.com/RNtaate/roy-apple-page-project.git
+```
+
 ## Authors
 
 👤 **Roy Ntaate**
