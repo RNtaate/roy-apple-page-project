@@ -27,7 +27,7 @@ This project was made to demonstrate the author's understanding of basic HTML an
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/RNtaate/roy-apple-page-project/issues).
 
 ## Show your support
 
@@ -35,8 +35,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This project was originally taken from The Odin project.
-- The project was inspired by the Microverse program.
+- This project was originally taken from [The Odin project](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
+- The project was inspired by the [Microverse](https://www.microverse.org/) program.
 
 ## 📝 License
 
