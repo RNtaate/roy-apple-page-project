@@ -23,14 +23,21 @@ This project was made to demonstrate the author's understanding of basic HTML an
 - Linkedin: [roy-ntaate](https://linkedin.com/in/roy-ntaate)
 
 
-## 🤝 Contributing
+# 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! Start by:
+Contributions, issues and feature requests are welcome!
 
-- Forking the project
-- Cloning the project to your local machine
-- `cd` into the Youtube-Replica project directory
-- Run `git checkout -b your-branch-name`
-- Make your contributions
-- Push your branch up to your forked repository
-- Open a Pull Request with a detailed description to the development branch of the original project for a review
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- This project was originally taken from The Odin project.
+- The project was inspired by the Microverse program.
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
